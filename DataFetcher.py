@@ -1,6 +1,6 @@
 from Bio import Entrez
 from collections import Counter
-Entrez.email = "nsawicki@umich.edu"
+Entrez.email = ""
 
 class NucleotideQuery:
 
