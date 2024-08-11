@@ -15,7 +15,7 @@ class NucleotideQuery:
 
         self.sequence = ''
 
-    def fetch_gene(self):
+    def fetch_gene(self,print_full=False):
         
         # This method fetches <gene_id> information from the nucleotide database.
         try:
@@ -23,6 +23,9 @@ class NucleotideQuery:
             gene_data = handle.read()
 
             self.sequence = gene_data.split(' mRNA')[1].replace('\n','')
+            if print_full:
+                print(gene_data)
+
             return self.sequence
 
         except Exception as e:
