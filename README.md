@@ -1,8 +1,8 @@
 # CodonAnalysis
 Retrieve and analyze codons from the Nucleotide database of sequences
 
-## Reference Genes
-For referencing specific mRNA sequences in databases such as NCBI's GenBank. These IDs start with "NM_" followed by a series of numbers and a version suffix (e.g., .4), which indicates the version of the sequence record. [1]
+## Reference Genes [1]
+For referencing specific mRNA sequences in databases such as NCBI's GenBank. These IDs start with "NM_" followed by a series of numbers and a version suffix (e.g., .4), which indicates the version of the sequence record.
 
 BRCA1: NM_007294.4  
 BRCA2: NM_000059.3  
